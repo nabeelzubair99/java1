@@ -1,0 +1,10 @@
+
+public class singSong {
+	public static void chorusOne(String animalName) {
+		//just going to be using static methods
+		System.out.println("Bought me a " + animalName +" and the " + animalName +" pleased me");
+		System.out.println("I fed my "+ animalName + "under yonder tree.");
+		System.out.println("Cat goes fiddle-i-fee");
+	}
+
+}

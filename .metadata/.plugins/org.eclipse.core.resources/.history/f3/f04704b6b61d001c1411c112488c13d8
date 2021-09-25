@@ -1,0 +1,8 @@
+
+public class singSong {
+	public static void chorusOne(String animalName) {
+		//just going to be using static methods
+		System.out.println("Bought me a " + animalName +" and the " + animalName +" pleased me");
+	}
+
+}

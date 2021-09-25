@@ -1,0 +1,50 @@
+
+public class singSong {
+	public static void overallSong(String animalName) {
+		// just going to be using static methods
+
+		if (animalName == "cat") {
+			theChorus(animalName);
+			System.out.println("Cat goes fiddle-i-fee");
+
+		} else if (animalName == "hen") {
+			theChorus(animalName);
+			hen();
+			System.out.println("Cat goes fiddle-i-fee");
+
+		} else if (animalName == "duck") {
+			theChorus(animalName);
+			duck();
+			hen();
+			System.out.println("Cat goes fiddle-i-fee");
+		} else if (animalName == "goose") {
+			theChorus(animalName);
+			goose();
+			duck();
+			hen();
+			System.out.println("Cat goes fiddle-i-fee");
+		}
+	}
+
+	private static void theChorus(String animalName) {
+		System.out.println("Bought me a " + animalName + " and the " + animalName + " pleased me");
+		System.out.println("I fed my " + animalName + "under yonder tree.");
+	}
+
+	private static void hen() {
+		System.out.println("Hen goes chimmy-chuck, chimmy-chuck,");
+	}
+
+	private static void duck() {
+		System.out.println("duck goes quack quack!");
+	}
+
+	private static void goose() {
+		System.out.println("duck goes quack quack!");
+	}
+
+	private static void catRepeatVerse() {
+		System.out.println("Cat goes fiddle-i-fee");
+	}
+
+}
