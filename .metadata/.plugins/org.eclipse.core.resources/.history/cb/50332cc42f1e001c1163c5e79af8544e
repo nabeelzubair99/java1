@@ -1,0 +1,25 @@
+
+public class asciiArt {
+	static final int SIZE = 10;
+	static final int DRAW_ME = 15;
+	static final int PERCENTAGE = 30;
+	public void mainDisplay() {
+		creatingAPicture();
+	}
+
+	private void creatingAPicture() {
+
+		for (int i = 0; i <= SIZE; i++) {
+			String star = "*";
+			String backslash = "\\";
+
+			System.out.println("*");
+			for (int x = 0; x <= DRAW_ME; x++) {
+
+				System.out.println(star += star);
+				System.out.println(backslash += star);
+			}
+		}
+	}
+
+}

@@ -21,11 +21,6 @@ public class testLab {
 		singSong.overallSong(goose);
 		singSong.overallSong(sheep);
 		singSong.overallSong(pig);
-
-		// this is lab 3 stuff
-
-		asciiArt x = new asciiArt();
-		x.mainDisplay();
 	}
 
 }

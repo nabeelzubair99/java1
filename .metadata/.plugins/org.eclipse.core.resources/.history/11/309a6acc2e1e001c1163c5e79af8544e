@@ -1,0 +1,13 @@
+
+public class asciiArt {
+	static final int SIZE = 10;
+	
+	public void mainDisplay() {
+		creatingAPicture();
+	}
+	
+	private void creatingAPicture() {
+		
+	}
+
+}

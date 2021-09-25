@@ -1,0 +1,21 @@
+
+public class asciiArt {
+	static final int SIZE = 10;
+	static final int DRAW_ME = 15;
+
+	public void mainDisplay() {
+		creatingAPicture();
+	}
+
+	private void creatingAPicture() {
+
+		for (int i = 0; i <= SIZE; i++) {
+			System.out.println("*");
+			for (int x = 0; x <= DRAW_ME; x++) {
+				String star = "*";
+				System.out.println(star += star);
+			}
+		}
+	}
+
+}
