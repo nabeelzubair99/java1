@@ -29,9 +29,7 @@ public class testLab {
 
 		// we are going to test the string practice class.
 		StringPractice.isFace('Q');
-		int indexOfFirstFace = StringPractice.indexOfFirstFace("Jack");
-		System.out.println(indexOfFirstFace);
-		;
+		StringPractice.indexOfFirstFace("Jack");
 	}
 
 }

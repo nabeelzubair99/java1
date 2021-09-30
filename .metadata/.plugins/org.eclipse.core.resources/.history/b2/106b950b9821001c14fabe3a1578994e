@@ -26,12 +26,9 @@ public class testLab {
 
 		asciiArt x = new asciiArt();
 		x.mainDisplay();
-
-		// we are going to test the string practice class.
-		StringPractice.isFace('Q');
-		int indexOfFirstFace = StringPractice.indexOfFirstFace("Jack");
-		System.out.println(indexOfFirstFace);
-		;
+		
+		// we are going to test the string practice class. 
+		
 	}
 
 }
